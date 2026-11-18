@@ -1,0 +1,6 @@
+{
+  "name": "Xíu Bread & Coffee",
+  "description": "Chuỗi cửa hàng bánh mì tươi nướng mỗi ngày, cà phê rang xay nguyên chất và bánh ngọt thủ công — Bánh mì tươi, Cà phê thật, Thực phẩm sạch.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

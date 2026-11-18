@@ -1,0 +1,277 @@
+<!doctype html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tải bản Demo — Xíu Bread &amp; Coffee</title>
+    <link rel="icon" type="image/svg+xml" href="./favicon.svg" />
+    <style>
+      :root {
+        color-scheme: light;
+      }
+      * {
+        box-sizing: border-box;
+      }
+      body {
+        margin: 0;
+        min-height: 100vh;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+        background: #fcfaf7;
+        color: #24140d;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 24px;
+      }
+      .card {
+        width: 100%;
+        max-width: 640px;
+        background: #ffffff;
+        border: 1px solid #e6d8c5;
+        border-radius: 16px;
+        padding: 32px;
+        box-shadow: 0 18px 45px -24px rgba(36, 20, 13, 0.25);
+      }
+      .eyebrow {
+        font-size: 12px;
+        font-weight: 700;
+        letter-spacing: 0.08em;
+        text-transform: uppercase;
+        color: #9b5208;
+        margin: 0 0 8px;
+      }
+      h1 {
+        margin: 0 0 10px;
+        font-size: 28px;
+        line-height: 1.2;
+        color: #24140d;
+      }
+      .subtitle {
+        margin: 0 0 24px;
+        color: #5c4335;
+        font-size: 15px;
+        line-height: 1.6;
+      }
+      .primary-box {
+        background: #24140d;
+        color: #fcfaf7;
+        border-radius: 12px;
+        padding: 22px;
+        margin-bottom: 20px;
+      }
+      .primary-box h2 {
+        margin: 0 0 6px;
+        font-size: 18px;
+        color: #ffffff;
+      }
+      .primary-box p {
+        margin: 0 0 16px;
+        font-size: 14px;
+        line-height: 1.55;
+        color: #e2d6c5;
+      }
+      .actions {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+      }
+      .btn {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        gap: 8px;
+        padding: 12px 18px;
+        border-radius: 8px;
+        font-size: 14px;
+        font-weight: 600;
+        text-decoration: none;
+        cursor: pointer;
+        border: none;
+      }
+      .btn-primary {
+        background: #c67211;
+        color: #ffffff;
+      }
+      .btn-primary:hover {
+        background: #b1630c;
+      }
+      .btn-ghost {
+        background: rgba(255, 255, 255, 0.1);
+        color: #fcfaf7;
+        border: 1px solid rgba(255, 255, 255, 0.2);
+      }
+      .btn-ghost:hover {
+        background: rgba(255, 255, 255, 0.16);
+      }
+      .secondary-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+        gap: 12px;
+        margin-bottom: 20px;
+      }
+      .sub-card {
+        display: flex;
+        flex-direction: column;
+        border: 1px solid #eadfce;
+        border-radius: 10px;
+        padding: 16px;
+        background: #fdfbf8;
+      }
+      .sub-card h3 {
+        margin: 0 0 6px;
+        font-size: 15px;
+        color: #24140d;
+      }
+      .sub-card p {
+        margin: 0 0 14px;
+        font-size: 13px;
+        color: #6b5244;
+        line-height: 1.5;
+        flex: 1;
+      }
+      .btn-outline {
+        align-self: flex-start;
+        background: #ffffff;
+        color: #24140d;
+        border: 1px solid #d5c1a8;
+        padding: 9px 14px;
+        font-size: 13px;
+      }
+      .btn-outline:hover {
+        background: #f5efe6;
+      }
+      .note {
+        margin: 0;
+        font-size: 13px;
+        color: #6b5244;
+        line-height: 1.55;
+      }
+      .footer-link {
+        display: inline-block;
+        margin-top: 18px;
+        font-size: 13px;
+        font-weight: 600;
+        color: #9b5208;
+        text-decoration: none;
+      }
+      .footer-link:hover {
+        text-decoration: underline;
+      }
+    </style>
+  </head>
+  <body>
+    <main class="card">
+      <p class="eyebrow">Xíu Bread &amp; Coffee · Bản bàn giao &amp; Demo</p>
+      <h1>Tải file HTML Demo gửi khách hàng</h1>
+      <p class="subtitle">
+        File HTML độc lập đã nén gọn <strong>toàn bộ giao diện, tương tác và 17 hình ảnh thật</strong>
+        vào trong 1 file duy nhất (~2,4 MB). Bạn tải về và gửi thẳng qua Zalo, Messenger hoặc Email
+        để khách mở xem ngay trên trình duyệt.
+      </p>
+
+      <section class="primary-box">
+        <h2>xiu-bread-coffee-demo.html (~2,4 MB)</h2>
+        <p>
+          Khách chỉ cần tải về và nhấp đúp mở bằng Chrome, Edge hoặc Safari — không cần hosting hay
+          internet vẫn xem được đầy đủ hình ảnh, thực đơn, giỏ hàng và đặt thử combo.
+        </p>
+        <div class="actions">
+          <a
+            id="btn-download-demo"
+            class="btn btn-primary"
+            href="./downloads/xiu-bread-coffee-demo.html"
+            download="xiu-bread-coffee-demo.html"
+          >
+            Tải file HTML Demo ngay
+          </a>
+          <a
+            class="btn btn-ghost"
+            href="./downloads/xiu-bread-coffee-demo.html"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Mở xem thử bản Demo
+          </a>
+        </div>
+      </section>
+
+      <section class="secondary-grid" id="wp-downloads">
+        <div class="sub-card">
+          <h3>Plugin WordPress</h3>
+          <p>Gói cài đặt trực tiếp trong WP Admin (bao gồm trang quản lý Đơn hàng &amp; Nhượng quyền).</p>
+          <a class="btn btn-outline" href="./download-wp-plugin" download="xiu-bread-coffee-plugin.zip">
+            Tải xiu-bread-coffee-plugin.zip
+          </a>
+        </div>
+        <div class="sub-card">
+          <h3>Gói Hosting tĩnh (cPanel)</h3>
+          <p>Giải nén vào <code>public_html/</code> hoặc thư mục con trên hosting WordPress bất kỳ.</p>
+          <a class="btn btn-outline" href="./download-wp-static" download="xiu-static-hosting.zip">
+            Tải xiu-static-hosting.zip
+          </a>
+        </div>
+      </section>
+
+      <p class="note">
+        Mẹo: Nếu trình duyệt mở xem thay vì tự tải xuống khi bấm nút, nhấn chuột phải vào nút
+        <strong>Tải file HTML Demo ngay</strong> và chọn <strong>Lưu liên kết thành... (Save link as)</strong>.
+      </p>
+
+      <a class="footer-link" href="./">← Quay lại website chính Xíu Bread &amp; Coffee</a>
+    </main>
+
+    <script>
+      (function () {
+        var btn = document.getElementById('btn-download-demo');
+        if (!btn) return;
+        btn.addEventListener('click', function (e) {
+          // On localhost/ais-dev, /download-demo enforces Content-Disposition: attachment;
+          // fallback smoothly to ./downloads/xiu-bread-coffee-demo.html on static hosts.
+          e.preventDefault();
+          fetch('./download-demo', { method: 'HEAD' })
+            .then(function (res) {
+              var ct = res.headers.get('content-disposition') || '';
+              if (res.ok && ct.indexOf('attachment') !== -1) {
+                window.location.href = './download-demo';
+              } else {
+                triggerBlobDownload();
+              }
+            })
+            .catch(function () {
+              triggerBlobDownload();
+            });
+        });
+
+        function triggerBlobDownload() {
+          fetch('./downloads/xiu-bread-coffee-demo.html')
+            .then(function (r) { return r.blob(); })
+            .then(function (blob) {
+              var url = URL.createObjectURL(blob);
+              var a = document.createElement('a');
+              a.href = url;
+              a.download = 'xiu-bread-coffee-demo.html';
+              document.body.appendChild(a);
+              a.click();
+              document.body.removeChild(a);
+              setTimeout(function () { URL.revokeObjectURL(url); }, 1000);
+            })
+            .catch(function () {
+              window.location.href = './downloads/xiu-bread-coffee-demo.html';
+            });
+        }
+        fetch('./download-wp-plugin', { method: 'HEAD' })
+          .then(function (res) {
+            var type = res.headers.get('content-type') || '';
+            if (!res.ok || type.indexOf('zip') === -1) {
+              var wpBox = document.getElementById('wp-downloads');
+              if (wpBox) wpBox.style.display = 'none';
+            }
+          })
+          .catch(function () {
+            var wpBox = document.getElementById('wp-downloads');
+            if (wpBox) wpBox.style.display = 'none';
+          });
+      })();
+    </script>
+  </body>
+</html>
